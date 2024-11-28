@@ -1,4 +1,6 @@
-﻿namespace PackageDelivery.Tests;
+﻿using NUnit.Framework;
+
+namespace PackageDelivery.Tests;
 
 /*
  * Implement the Solitary tests for the package delivery service in the following order:
@@ -16,4 +18,9 @@
 
 public class DeliveryServiceTests
 {
+    [Test]
+    public void GivenPackageDeliveryEventPublished_ThenUpdateDeliveryState()
+    {
+
+    }
 }
